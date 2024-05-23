@@ -1,0 +1,17 @@
+{
+  "name": "playwright-test-filter-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test o.spec.js:3",
+    "test:foo": "playwright test foo.spec.js:3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12"
+  }
+}
